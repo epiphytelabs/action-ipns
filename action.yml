@@ -1,0 +1,15 @@
+name: Publish to IPNS
+description: Publish an IPFS CID to IPNS
+branding:
+  icon: upload-cloud
+  color: green
+inputs:
+  cid:
+    description: CID to publish
+    required: true
+outputs:
+  cid:
+    description: IPNS CID
+runs:
+  using: node16
+  main: index.js
