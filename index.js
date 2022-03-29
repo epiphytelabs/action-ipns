@@ -1,7 +1,7 @@
 const core = require("@actions/core");
 const path = require("path");
 
-const ipns = require("ipfs-http-client").create({ host: "ipfs.komputing.org", port: 443, protocol: "https" });
+const ipns = require("ipfs-http-client").create({ core.getInput("host"), port: core.getInput("port"), protocol: "https" });
 
 async function main() {
 	try {
