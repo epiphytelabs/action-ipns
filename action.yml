@@ -9,7 +9,7 @@ inputs:
     required: true
   host:
     description: IPFS hostname
-    default: ipfs.io
+    default: ipfs.epiphytelabs.io
   port:
     description: IPFS port
     default: 443
