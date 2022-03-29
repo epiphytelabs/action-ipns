@@ -10,7 +10,7 @@ inputs:
   host:
     description: IPFS hostname
     required: false
-    default: ipfs.epiphytelabs.app
+    default: ipfs.epiphytelabs.io
   port:
     description: IPFS port
     required: false
