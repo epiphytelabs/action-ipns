@@ -9,10 +9,10 @@ inputs:
     required: true
   host:
     description: IPFS hostname
-    default: ipfs.infura.io
+    default: ipfs.komputing.org
   port:
     description: IPFS port
-    default: 5001
+    default: 443
 outputs:
   name:
     description: IPNS name
