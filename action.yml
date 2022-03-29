@@ -12,7 +12,7 @@ inputs:
     default: ipfs.epiphytelabs.app
   port:
     description: IPFS port
-    default: 443
+    default: 5001
 outputs:
   name:
     description: IPNS name
