@@ -9,10 +9,16 @@ inputs:
     required: true
   host:
     description: IPFS hostname
+    required: false
     default: ipfs.epiphytelabs.app
   port:
     description: IPFS port
-    default: 5001
+    required: false
+    default: "5001"
+  protocol:
+    description: IPFS protocol
+    required: false
+    default: http
 outputs:
   name:
     description: IPNS name
