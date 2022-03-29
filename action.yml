@@ -9,7 +9,7 @@ inputs:
     required: true
   host:
     description: IPFS hostname
-    default: ipfs.komputing.org
+    default: ipfs.io
   port:
     description: IPFS port
     default: 443
