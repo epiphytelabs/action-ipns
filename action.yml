@@ -4,13 +4,16 @@ branding:
   icon: upload-cloud
   color: green
 inputs:
+  auth:
+    description: IPFS authentication
+    required: false
   cid:
     description: CID to publish
     required: true
   host:
     description: IPFS hostname
     required: false
-    default: ipfs.epiphytelabs.io
+    default: ipfs.epiphyte.cloud
   port:
     description: IPFS port
     required: false
